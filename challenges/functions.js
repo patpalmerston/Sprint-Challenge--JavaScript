@@ -8,7 +8,7 @@
 */
 
 const hof = function (cb) {
-  return cb
+  return cb()
 };
 
 function consume (par1, par2, cb) {
